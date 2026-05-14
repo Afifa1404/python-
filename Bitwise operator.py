@@ -1,0 +1,14 @@
+x=int(input("Enter first number: "))
+y=int(input("Enter second number: "))
+a1=x&y
+a2=x|y
+a3=~x
+a4=x^y
+a5=x>>2
+a6=x<<2
+print("Bitwise AND=",a1)
+print("Bitwise OR=",a2)
+print("Bitwise NOT=",a3)
+print("Bitwise XOR=",a4)
+print("Bitwise Right shift=",a5)
+print("Bitwise Left shift=",a6)
